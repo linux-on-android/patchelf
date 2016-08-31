@@ -1,0 +1,430 @@
+patchelf.o: patchelf.cc \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/string \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/aarch64-linux-android/bits/c++config.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/aarch64-linux-android/bits/os_defines.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/aarch64-linux-android/bits/cpu_defines.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stringfwd.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/memoryfwd.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/char_traits.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_algobase.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/functexcept.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/exception_defines.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/cpp_type_traits.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/ext/type_traits.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/ext/numeric_traits.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_pair.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/move.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/concept_check.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_iterator_base_types.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_iterator_base_funcs.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/debug/debug.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_iterator.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/ptr_traits.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/predefined_ops.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/postypes.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/cwchar \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/wchar.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/sys/cdefs.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/sys/cdefs_elf.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/android/api-level.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/stdio.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/sys/types.h \
+ /home/crixec/opt/aarch64-linux-android/lib/gcc/aarch64-linux-android/4.9.x/include/stddef.h \
+ /home/crixec/opt/aarch64-linux-android/lib/gcc/aarch64-linux-android/4.9.x/include/stdint.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/stdint.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/machine/wchar_limits.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/linux/types.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/asm/types.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/asm-generic/types.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/asm-generic/int-ll64.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/asm/bitsperlong.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/asm-generic/bitsperlong.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/linux/posix_types.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/linux/stddef.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/linux/compiler.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/asm/posix_types.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/asm-generic/posix_types.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/sys/sysmacros.h \
+ /home/crixec/opt/aarch64-linux-android/lib/gcc/aarch64-linux-android/4.9.x/include/stdarg.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/time.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/sys/time.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/linux/time.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/xlocale.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/allocator.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/aarch64-linux-android/bits/c++allocator.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/ext/new_allocator.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/new \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/exception \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/atomic_lockfree_defines.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/localefwd.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/aarch64-linux-android/bits/c++locale.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/clocale \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/locale.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/iosfwd \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/cctype \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/ctype.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/ostream_insert.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/cxxabi_forced.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_function.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/backward/binders.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/range_access.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/basic_string.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/ext/atomicity.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/aarch64-linux-android/bits/gthr.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/aarch64-linux-android/bits/gthr-default.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/pthread.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/signal.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/errno.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/linux/errno.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/asm/errno.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/asm-generic/errno.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/asm-generic/errno-base.h \
+ /home/crixec/opt/aarch64-linux-android/lib/gcc/aarch64-linux-android/4.9.x/include-fixed/limits.h \
+ /home/crixec/opt/aarch64-linux-android/lib/gcc/aarch64-linux-android/4.9.x/include-fixed/syslimits.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/limits.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/sys/limits.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/linux/limits.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/sys/syslimits.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/string.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/malloc.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/asm/sigcontext.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/linux/signal.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/asm/signal.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/asm-generic/signal.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/asm-generic/signal-defs.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/asm/siginfo.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/asm-generic/siginfo.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/sys/ucontext.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/sys/user.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/sched.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/linux/sched.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/aarch64-linux-android/bits/atomic_word.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/basic_string.tcc \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/vector \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_construct.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/ext/alloc_traits.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_uninitialized.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_vector.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_bvector.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/vector.tcc \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/set \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_tree.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_set.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_multiset.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/map \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_map.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_multimap.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/algorithm \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/utility \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_relops.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_algo.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/cstdlib \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/stdlib.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/alloca.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/strings.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/memory.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/algorithmfwd.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_heap.h \
+ /home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_tempbuf.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/assert.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/sys/stat.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/linux/stat.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/endian.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/sys/endian.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/unistd.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/sys/select.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/sys/sysconf.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/pathconf.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/fcntl.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/linux/fadvise.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/linux/fcntl.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/asm/fcntl.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/asm-generic/fcntl.h \
+ /home/crixec/opt/aarch64-linux-android/sysroot/usr/include/linux/uio.h \
+ elf.h
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/string:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/aarch64-linux-android/bits/c++config.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/aarch64-linux-android/bits/os_defines.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/aarch64-linux-android/bits/cpu_defines.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stringfwd.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/memoryfwd.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/char_traits.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_algobase.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/functexcept.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/exception_defines.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/cpp_type_traits.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/ext/type_traits.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/ext/numeric_traits.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_pair.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/move.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/concept_check.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_iterator_base_types.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_iterator_base_funcs.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/debug/debug.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_iterator.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/ptr_traits.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/predefined_ops.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/postypes.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/cwchar:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/wchar.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/sys/cdefs.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/sys/cdefs_elf.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/android/api-level.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/stdio.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/sys/types.h:
+
+/home/crixec/opt/aarch64-linux-android/lib/gcc/aarch64-linux-android/4.9.x/include/stddef.h:
+
+/home/crixec/opt/aarch64-linux-android/lib/gcc/aarch64-linux-android/4.9.x/include/stdint.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/stdint.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/machine/wchar_limits.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/linux/types.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/asm/types.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/asm-generic/types.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/asm-generic/int-ll64.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/asm/bitsperlong.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/asm-generic/bitsperlong.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/linux/posix_types.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/linux/stddef.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/linux/compiler.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/asm/posix_types.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/asm-generic/posix_types.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/sys/sysmacros.h:
+
+/home/crixec/opt/aarch64-linux-android/lib/gcc/aarch64-linux-android/4.9.x/include/stdarg.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/time.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/sys/time.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/linux/time.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/xlocale.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/allocator.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/aarch64-linux-android/bits/c++allocator.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/ext/new_allocator.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/new:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/exception:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/atomic_lockfree_defines.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/localefwd.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/aarch64-linux-android/bits/c++locale.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/clocale:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/locale.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/iosfwd:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/cctype:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/ctype.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/ostream_insert.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/cxxabi_forced.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_function.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/backward/binders.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/range_access.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/basic_string.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/ext/atomicity.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/aarch64-linux-android/bits/gthr.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/aarch64-linux-android/bits/gthr-default.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/pthread.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/signal.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/errno.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/linux/errno.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/asm/errno.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/asm-generic/errno.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/asm-generic/errno-base.h:
+
+/home/crixec/opt/aarch64-linux-android/lib/gcc/aarch64-linux-android/4.9.x/include-fixed/limits.h:
+
+/home/crixec/opt/aarch64-linux-android/lib/gcc/aarch64-linux-android/4.9.x/include-fixed/syslimits.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/limits.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/sys/limits.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/linux/limits.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/sys/syslimits.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/string.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/malloc.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/asm/sigcontext.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/linux/signal.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/asm/signal.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/asm-generic/signal.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/asm-generic/signal-defs.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/asm/siginfo.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/asm-generic/siginfo.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/sys/ucontext.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/sys/user.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/sched.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/linux/sched.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/aarch64-linux-android/bits/atomic_word.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/basic_string.tcc:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/vector:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_construct.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/ext/alloc_traits.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_uninitialized.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_vector.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_bvector.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/vector.tcc:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/set:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_tree.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_set.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_multiset.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/map:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_map.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_multimap.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/algorithm:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/utility:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_relops.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_algo.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/cstdlib:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/stdlib.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/alloca.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/strings.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/memory.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/algorithmfwd.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_heap.h:
+
+/home/crixec/opt/aarch64-linux-android/include/c++/4.9.x/bits/stl_tempbuf.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/assert.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/sys/stat.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/linux/stat.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/endian.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/sys/endian.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/unistd.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/sys/select.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/sys/sysconf.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/pathconf.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/fcntl.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/linux/fadvise.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/linux/fcntl.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/asm/fcntl.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/asm-generic/fcntl.h:
+
+/home/crixec/opt/aarch64-linux-android/sysroot/usr/include/linux/uio.h:
+
+elf.h:
